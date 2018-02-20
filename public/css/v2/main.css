@@ -1,0 +1,284 @@
+html, body{
+    height: 100%;
+    font-family: Meiryo;
+    /*"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
+    width: 1280px;
+    height: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+div.modal-content {
+    background-color:#141526 !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    /* padding: 0px 12px; */
+    /* border: 1px solid #ccc; */
+    width: 790px;
+    border-left: none;
+    height: 100%;
+    background-color: black;
+}
+.left-caret{
+    float: right; 
+    margin-right: -16px; 
+    font-size:30px;
+}
+/*  */
+
+div.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    background-color: #f1f1f1;
+    width: 200px;
+    height: 100%;
+}
+
+.btn-menu {
+    color: #ffffff;
+    font-size: 21px;
+    background: #a67c00;
+    padding: 9px 20px 10px 20px;
+    border: solid #E5CE4C 1px;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* .btn-menu:hover {
+    background: #E5CE4C;
+    text-decoration: none;
+} */
+
+.right-side-bar div{
+    width: 244px;
+    height: 340px;
+    color: #ffffff;
+}
+.right-side-bar div.order-header {
+    height: 33px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0px 0px 12px;
+}
+.right-side-bar div.male-body {
+    height: 303px;
+    overflow-y: scroll;
+}
+
+.right-side-bar div.female-body {
+height: 240px;
+overflow-y: scroll;
+}
+.historyDetail div.history-header {
+    height: 34px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 4px 0px 0px 16px;
+}
+
+.historyDetail div.history-body {
+    overflow-y: auto;
+    height: 252px;
+}
+
+.history-body table td {
+    border: 1px solid white;
+}
+/* star checkbox */
+.price-disabled {
+    opacity: 0.5;
+}
+
+.xitem{
+	/* color: #f4d164; */
+	color: #CB2020;
+	font-size: 26px;
+}
+.center-block {
+	float:none !important;
+}
+.btn-checkOut{
+	height: 45px;
+	background-color: #002323;
+	color: #f4d164;
+	/*padding: 0px 0px 4px 0px;*/
+	font-size: 17px;
+	width: 218px;
+	border-radius: 20px;
+	margin: 6px 0px 0px 12px;
+	text-align: center;
+}
+.btn-history{
+	height: 45px;
+	background-color: #002323;
+	color: #f4d164;
+	/*padding: 0px 0px 4px 0px;*/
+	font-size: 17px;
+	width: 218px;
+	border-radius: 20px;
+	margin: 10px 0px 0px 12px;
+	text-align: center;
+}
+.btn-historyOk{
+	height: 45px;
+	background-color: #002323;
+	color: #f4d164;
+	padding: 4px 0px 1px 0px;
+	font-size: 17px;
+	border-radius: 20px;
+	text-align: center;
+	width: 218px;
+	margin-bottom: 0px;
+}
+.btn-style{
+	height: 45px;
+	background-color: #002323;
+	color: #f4d164;
+	padding: 4px 0px 4px 0px;
+	font-size: 17px;
+	width: 152px;
+	border-radius: 50px;
+	text-align: center;
+}
+.billOut{
+	height: 45px;
+	background-color: #002323;
+	color: #f4d164;
+	padding: 4px 0px 4px 0px;
+	font-size: 17px;
+	width: 150px;
+	border-radius: 20px;
+	text-align: center;
+	float: left;
+}
+
+
+.btn-menu.active.focus,
+.btn-menu.active:focus,
+.btn-menu.focus,
+.btn-menu.focus:active,
+.btn-menu:active:focus,
+.btn-menu:focus {
+	outline: 0 !important;
+	outline-offset: 0  !important;
+	background-image: none  !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none  !important;
+}
+.btn-menu:active{
+	color: #002323;
+	background-color: #f4d164;
+}
+
+.set-order{
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+
+.bill-out-container{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.billout-modal-check-gender .modal-check-body {
+    top: 15em;
+    width:390px;
+}
+.billout-modal-check-gender button:active {
+    background-color: #A88C35;
+}
+
+.billout-modal-check-gender > div .modal-content {
+    height: 295px;
+    width: 415px;
+    border: 1px solid #f4d164;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.billout-modal-check-gender > div .modal-check-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f4d164;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.billout-modal-check-gender > div .modal-check-desc {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0px 20px 0px;
+    padding-right: 120px;
+    height: 75px;
+}
+
+.billout-modal-check-gender > div .modal-check-btn-wrap button {
+    width: 100px;
+    margin-right: 31px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 21px;
+    color: #fff;
+    border: 0;
+}
+.billout-modal-check-gender .billout-male {
+    background-color: #293EAA;
+}
+.billout-modal-check-gender .billout-female {
+    background-color: #DA0895;
+}
+.billout-modal-check-gender .billout-all {
+    background-color: #0B9838;
+}
+
+.billout-modal-check-gender > div .modal-check-footer {
+    margin-top: 25px;
+}
+
+.billout-modal-check-gender .btn-cancel {
+    width: 100%;
+    background-color: #1E282C;
+    border: 1px solid #f4d164;
+    color: #f4d164;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 21px;
+}
+
+/* billout ty modal */
+.billout-modal-ty .modal-ty-body{
+    top: 15em;
+    width:500px;
+}
+.billout-modal-ty > div .modal-content{
+    height: 126px;
+    width: 500px;
+    border: 1px solid #f4d164;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.billout-modal-ty > div .modal-ty-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f4d164;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.billout-modal-ty > div .modal-ty-desc {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 23px;
+}
